@@ -1,5 +1,5 @@
 {% set name = "sqlite-utils" %}
-{% set version = "3.13" %}
+{% set version = "3.14" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sqlite-utils-{{ version }}.tar.gz
-  sha256: 8c9ae307ba647497b57e8442351b975a96a93e32c594e868c4d5f8402ea6b65e
+  sha256: bb383402e658b4601e64b84e7dd1485e3efc19c54e278a94d62af874cac8fc9a
 
 build:
   entry_points:
@@ -25,6 +25,7 @@ requirements:
   run:
     - click
     - click-default-group
+    - dateutils
     - python >=3.6
     - sqlite-fts4
     - tabulate
