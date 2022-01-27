@@ -37,7 +37,7 @@ test:
     - sqlite_utils
   commands:
     - pip check
-    - pytest -vvv --capture=tee-sys -k 'not commands_are_documented' tests
+    - pytest -vvv --capture=tee-sys -k 'not commands_are_documented and not recipes_are_documented' tests
   requires:
     - cogapp
     - hypothesis
