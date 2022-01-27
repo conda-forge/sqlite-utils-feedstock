@@ -31,12 +31,18 @@ requirements:
     - tabulate
 
 test:
+  source_files:
+    - tests
   imports:
     - sqlite_utils
   commands:
     - pip check
+    - pytest -vvv --capture=tee-sys tests
   requires:
+    - cogapp
+    - hypothesis
     - pip
+    - pytest
 
 about:
   home: https://github.com/simonw/sqlite-utils
