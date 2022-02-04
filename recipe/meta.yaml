@@ -37,7 +37,7 @@ test:
     - sqlite_utils
   commands:
     - pip check
-    - pytest -vvv --capture=tee-sys -k 'not commands_are_documented and not recipes_are_documented and not insert_streaming_batch_size_1' tests
+    - pytest -vvv --capture=tee-sys -k 'not commands_are_documented and not recipes_are_documented and not insert_streaming_batch_size_1 and not cli_bulk_batch_size' tests
   requires:
     - cogapp
     - hypothesis
