@@ -20,7 +20,6 @@ build:
 requirements:
   host:
     - pip
-    - pytest-runner
     - python >=3.6
   run:
     - click
