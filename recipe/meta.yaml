@@ -1,5 +1,5 @@
 {% set name = "sqlite-utils" %}
-{% set version = "3.25" %}
+{% set version = "3.25.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sqlite-utils-{{ version }}.tar.gz
-  sha256: 38a970b97c17194d9605ab84df749802e1f3bcf06135dc180779d0a39576b142
+  sha256: df695f509a136e47e5ced2d4fc10e16c76ee3a45bae8e1a91cbba2c80285cbc9
 
 build:
   entry_points:
@@ -20,7 +20,6 @@ build:
 requirements:
   host:
     - pip
-    - pytest-runner
     - python >=3.6
   run:
     - click
