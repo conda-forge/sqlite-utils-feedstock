@@ -23,7 +23,7 @@ requirements:
     - python >=3.6
   run:
     - click
-    - click-default-group
+    - click-default-group-wheel
     - python >=3.6
     - python-dateutil
     - sqlite-fts4
