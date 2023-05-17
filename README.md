@@ -1,11 +1,11 @@
-About sqlite-utils
-==================
+About sqlite-utils-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlite-utils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/simonw/sqlite-utils
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlite-utils-feedstock/blob/main/LICENSE.txt)
 
 Summary: CLI tool and Python utility functions for manipulating SQLite databases
 
