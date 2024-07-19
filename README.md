@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@simonw](https://github.com/simonw/)
 * [@thewchan](https://github.com/thewchan/)
 
-
-<!-- dummy commit to enable rerendering -->
-
