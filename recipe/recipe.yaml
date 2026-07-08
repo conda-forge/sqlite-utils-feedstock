@@ -24,15 +24,15 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools
+    - setuptools >=77
   run:
     - python >=${{ python_min }}
-    - sqlite-fts4
     - click >=8.3.1
     - click-default-group >=1.2.3
-    - tabulate
-    - python-dateutil
     - pluggy
+    - python-dateutil
+    - sqlite-fts4
+    - tabulate
     - pip
 
 tests:
@@ -40,7 +40,9 @@ tests:
       imports:
         - sqlite_utils
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - files:
       source:
         - tests
