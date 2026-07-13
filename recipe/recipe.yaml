@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sqlite-utils
-  version: "4.0"
+  version: "4.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: cea711807c2bbc18829ed642ae19a23a80e853f4136c4d2a28078a6117ad9426
+  sha256: cf97e620b3940cd541cae9117cc24af961a6da426189fdb662f20f1950ba1f49
 
 build:
   number: 0
